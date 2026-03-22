@@ -1,0 +1,57 @@
+CUSTOMERS = [
+    "Ace Endico", "Airlite Plastics", "Allied Beverage Group", "Amazon", "Ariat",
+    "Army & Air Force Exchange Service", "AAFES", "Aroplax", "Austin Lighthouse",
+    "Axon", "Barrett Distribution", "Bosma Enterprises", "Capstone Logistics",
+    "Chefs' Warehouse", "Cooper Lighting", "DNATA", "DSV North America", "Dalosy",
+    "Echo Global Logistics", "Geodis", "Gordon Food Service", "Highline Warren",
+    "Hims and Hers Health", "Holman Logistics", "KeHE", "DPI Specialty Foods",
+    "Kwik Trip", "Langham Logistics", "McKinsey & Company", "NFI Industries",
+    "Peak Technologies", "Point B Solutions", "Progressive Logistics",
+    "Rivian Automotive", "Romark Logistics", "TJX", "Taylor Logistics",
+    "Toyota", "Vytalogy", "Wagner Logistics", "Whirlpool", "Bosch",
+    "Roadtex Transportation",
+]
+
+STRATEGIC = [
+    "Amazon", "Capstone Logistics", "CEVA Logistics", "DHL Group", "FedEx",
+    "Geodis", "GXO", "Keurig Dr Pepper", "MilliporeSigma", "Merck KGaA",
+    "Nestlé", "Nestle", "PepsiCo", "Procter & Gamble", "P&G", "Target",
+]
+
+TARGET = [
+    "7-Eleven", "AbbVie", "Adidas", "Airbus", "Albertsons Companies",
+    "Amazon", "Americold", "Amgen", "Anheuser-Busch", "Ashley Furniture",
+    "Barrett Distribution", "Barry Callebaut", "Bayer", "Best Buy",
+    "BJ's Wholesale Club", "BMW Group", "Boeing", "BorgWarner", "Bosch Global",
+    "Brenntag", "Bristol Myers Squibb", "C&S Wholesale Grocers",
+    "Capstone Logistics", "Cardinal Health", "Cargill", "Caterpillar",
+    "Cencora", "CEVA Logistics", "Chefs' Warehouse", "Chewy", "Church & Dwight",
+    "Cintas", "CJ Logistics", "Colgate-Palmolive", "Costco Wholesale",
+    "CVS Pharmacy", "DHL Group", "Disney", "Dollar General", "DP World", "DSV",
+    "Dutch Valley Foods", "Echo Global Logistics", "Eli Lilly", "FedEx",
+    "Ford Motor Company", "General Mills", "General Motors", "Georgia-Pacific",
+    "Geodis", "Gordon Food Service", "GSK", "GlaxoSmithKline", "GXO",
+    "Hershey", "Highline Warren", "Honda", "Hormel", "Hub Group", "Hyundai",
+    "IKEA", "Ingram Micro", "John Deere", "Johnson & Johnson", "Kaiser Permanente",
+    "KeHE", "Kellanova", "Kenco", "Keurig Dr Pepper", "Kia", "Kimberly-Clark",
+    "Kohl's", "Kraft Heinz", "Kroger", "Kuehne + Nagel", "L'Oreal", "L'Oréal",
+    "Lenovo", "Lineage Logistics", "Linear Logistics", "Lowe's", "LVMH",
+    "Maersk", "Magna International", "Mars", "Martin Brower", "Mastronardi Produce",
+    "McKesson", "McLane Company", "Medline", "Medtronic", "Meijer", "Merck",
+    "Merck KGaA", "Michaels Stores", "MilliporeSigma", "Nestlé", "Nestle",
+    "NFI Industries", "Niagara Bottling", "Nike", "Nissan North America",
+    "Nordstrom", "Owens & Minor", "Pactiv", "Penske Logistics", "PepsiCo",
+    "Petco", "PetSmart", "Pfizer", "PPG Industries", "Pratt & Whitney",
+    "Procter & Gamble", "P&G", "Revlon", "RJW Logistics", "RXO", "Ryder",
+    "Saddle Creek Logistics", "Sanofi", "Satair", "Sephora", "Sherwin-Williams",
+    "Siemens", "Skechers", "Southern Glazer Wine & Spirits", "Stanley Black & Decker",
+    "Staples", "Starbucks", "Stellantis", "Subaru of America", "Sysco",
+    "Target", "TE Connectivity", "Tesla", "The Coca-Cola Company", "Coca-Cola",
+    "The Home Depot", "Home Depot", "Thyssenkrupp", "Total Distribution",
+    "Toyota Motor Corporation", "Toyota", "Tyson Foods", "Uline", "Unilever",
+    "United Natural Foods", "UNFI", "UPS", "US Foods", "Vertical Cold Storage",
+    "Volvo Car AB", "Walgreens", "Walmart", "Wayfair", "Wesco",
+    "Williams Sonoma", "Whirlpool",
+]
+
+ALL_EXCLUDED = list(set(CUSTOMERS + STRATEGIC + TARGET))
