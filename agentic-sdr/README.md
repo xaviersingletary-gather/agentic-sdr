@@ -158,12 +158,12 @@ python3 -m src.orchestrator
 | Phase | Status | What's built |
 |---|---|---|
 | 1 — Scaffold | ✅ Done | Data models, exclusion engine, client stubs, test suite |
-| 2 — Prospector | 🔜 Next | Exa + Clay discovery + ICP qualifier (agents 1 & 2) |
-| 3 — Signal Hunter | ⬜ | Buying signal detection + Xavier Slack notification (agent 3) |
-| 4 — Contact Finder | ⬜ | Apollo + Sales Nav contact enrichment (agent 4) |
-| 5 — Outreach | ⬜ | HeyReach + Apollo sequence enrollment (agent 5) |
-| 6 — Follow-up | ⬜ | Reply monitoring + demo booking + HubSpot sync (agent 6) |
-| 7 — Orchestrator | ⬜ | End-to-end run loop with scheduling |
+| 2 — Prospector + ICP Qualifier | ✅ Done | Exa + Clay discovery, 0-100 ICP scoring |
+| 3 — Signal Hunter | ✅ Done | Buying signal detection, Xavier Slack notification at 70+ |
+| 4 — Contact Finder | ✅ Done | Apollo contacts, Director+ filter, TDM-first persona mapping |
+| 5 — Outreach | ✅ Done | HeyReach LinkedIn + Apollo email enrollment, DRY_RUN safe |
+| 6 — Follow-up | ✅ Done | Reply handling, meeting booked, HubSpot task creation |
+| 7 — Orchestrator | ✅ Done | End-to-end run loop, 71/71 tests passing |
 
 ---
 
